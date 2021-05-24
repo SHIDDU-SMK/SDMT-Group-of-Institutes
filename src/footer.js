@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './image/SDMT-logo.png';
+import logo from './assets/images/SDMT-logo.png';
 import { HashLink as Link } from 'react-router-hash-link';
 
 class Footer extends Component {
@@ -10,8 +10,8 @@ class Footer extends Component {
                     <footer className="card-body footer-text" style={{backgroundColor:"#BDE5E2",marginTop:'5rem'}}>
                     <div className="row" id="contact">
                           <div className="col-sm-5">
-                              <img src={logo} alt="logo img" width="95px" height="80px"/>
-                              <p className="text-color">One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education in the Northern part of Karnataka With World Class Modern Facilities.</p>
+                              <img src={logo} alt="logo img" className="image-center" width="200px" height="150px"/>
+                              <p className="text-color" style={{paddingTop:'1rem'}}>One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education in the Northern part of Karnataka With World Class Modern Facilities.</p>
                           </div>  
                           <div className="col-sm-3">
                               <h4 id="contact" className="card-title text-color"><b>Quick Links</b></h4>
@@ -55,7 +55,7 @@ class Footer extends Component {
                         </div>
                     </div>
                     <div style={{paddingBottom:"1rem"}}>
-                      <p className="text-color">&copy; NCCB &middot; <a className="link-color" href="#privacy">Privacy</a> &middot; <a className="link-color" href="#terms">Terms</a></p>
+                      <p className="text-color">&copy; Danigond Group of Institutes &middot; <a className="link-color" href="#privacy">Privacy</a> &middot; <a className="link-color" href="#terms">Terms</a></p>
                       <p><a className="link-color float-right" href="www.anyonecancode.in">made by anyonecancode.in</a></p>
                     </div>
                     </footer>

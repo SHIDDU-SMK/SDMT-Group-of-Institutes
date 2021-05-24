@@ -303,3 +303,8 @@ li {
 .sub-nav-pading{
     margin-top:4.5rem;
 }
+.image-center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

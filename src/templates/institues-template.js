@@ -12,16 +12,19 @@ function InstituesTemplate({data}) {
                 <Row>
                     { data.cards.map ( item => 
 
-                        <Col sm={4} style={{paddingBottom:"3rem"}}>
-                            <Card style={{border:"0px"}}>
+                        <Col sm={4} style={{paddingBottom:"2rem"}}>
+                            <Card>
                                 <div className="top-img">
-                                    <Card.Img variant="top" src={item.image} width="100%" height="100%" />
+                                    <Card.Img variant="top" src={item.image} alt={item.alt} width="100%" height="200px" />
                                 </div>
                                 <Card.Body>
                                     <Card.Title style={{color:"black"}}>
-                                        <h3>
-                                            <b>{item.heading}</b>
+                                        <h3  style={{fontSize:'20px'}}>
+                                            <b>{item.collegeName}</b>
                                         </h3>
+                                        <p style={{fontSize:'15px'}}>
+                                            City : {item.city}
+                                        </p>
                                     </Card.Title>
                                     <Card.Text>
                                         {item.para}

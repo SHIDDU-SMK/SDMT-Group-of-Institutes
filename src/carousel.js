@@ -1,9 +1,9 @@
 import React  from 'react';
 import {Carousel} from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
-import MedicalCollege from './image/sdm-medical-college.jpg';
-import Hospital from './image/sdm-hospital.jpg';
-import CollageView  from './image/sdm-top-view.jpeg';
+import MedicalCollege from './assets/images/sdm-medical-college.jpg';
+import Hospital from './assets/images/sdm-hospital.jpg';
+import CollageView  from './assets/images/sdm-top-view.jpeg';
 
 
 function Slider() {    

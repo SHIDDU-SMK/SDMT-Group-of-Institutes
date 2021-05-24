@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Navbar, Form, Nav } from 'react-bootstrap';
-import Logo from './image/logo.png';
+import Logo from './assets/images/logo.png';
 import ScrollToTop from './scrolltotop';
 
 const Header = () => {
