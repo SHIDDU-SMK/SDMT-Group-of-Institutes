@@ -7,7 +7,7 @@ export const InstitutesData = {
             collegeName : "Padma Ayurvedic Hospital & Research Centre.",
             alt : "Padma Ayurvedic Hospital & Research Centre",
             city : "Terdal",
-            para : "SDMT's Ayurvedic Medical College & Research Centre started with the sole intension of providing quality Ayurvedic medical education to produce the physicians & surgeon to serve the humanity in more holistic way."
+            para : "Danigond Group of Institutes Terdal is One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education."
         },
         {
             id : "2",
@@ -16,7 +16,7 @@ export const InstitutesData = {
             collegeName : "SDM College of Education (B.Ed).",
             alt : "SDM College of Education (B.Ed)",
             city : "Terdal",
-            para : "SDMT's Ayurvedic Medical College & Research Centre started with the sole intension of providing quality Ayurvedic medical education to produce the physicians & surgeon to serve the humanity in more holistic way."
+            para : "Danigond Group of Institutes Terdal is One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education."
         },
         {
             id : "3",
@@ -25,7 +25,7 @@ export const InstitutesData = {
             collegeName : "Danigond Ayurvedic Medical College.",
             alt : "Danigond Ayurvedic Medical College",
             city : "Terdal",
-            para : "SDMT's Ayurvedic Medical College & Research Centre started with the sole intension of providing quality Ayurvedic medical education to produce the physicians & surgeon to serve the humanity in more holistic way."
+            para : "Danigond Group of Institutes Terdal is One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education."
         },
         {
             id : "4",
@@ -34,7 +34,7 @@ export const InstitutesData = {
             collegeName : "Shasappanna Danigond Private ITI College.",
             alt : "Shasappanna Danigond Private ITI College.",
             city : "Terdal",
-            para : "SDMT's Ayurvedic Medical College & Research Centre started with the sole intension of providing quality Ayurvedic medical education to produce the physicians & surgeon to serve the humanity in more holistic way."
+            para : "Danigond Group of Institutes Terdal is One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education."
         },
         {
             id : "5",
@@ -43,7 +43,7 @@ export const InstitutesData = {
             collegeName : "Danigond Para Medical College (DMLT)",
             alt : "Danigond Para Medical College (DMLT)",
             city : "Terdal",
-            para : "SDMT's Ayurvedic Medical College & Research Centre started with the sole intension of providing quality Ayurvedic medical education to produce the physicians & surgeon to serve the humanity in more holistic way."
+            para : "Danigond Group of Institutes Terdal is One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education."
         },
         {
             id : "6",
@@ -52,7 +52,7 @@ export const InstitutesData = {
             collegeName : "Danigond  Post Graduation Center (MD/MS)",
             alt : "Danigond  Post Graduation Center (MD/MS)",
             city : "Terdal",
-            para : "SDMT's Ayurvedic Medical College & Research Centre started with the sole intension of providing quality Ayurvedic medical education to produce the physicians & surgeon to serve the humanity in more holistic way."
+            para : "Danigond Group of Institutes Terdal is One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education."
         }
     ]
 }

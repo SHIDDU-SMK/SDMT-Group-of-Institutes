@@ -305,6 +305,21 @@ li {
 }
 .image-center{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
+.img-shadow{
+    box-shadow: 10px 10px 5px grey;
+}
+.zoom-contziner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+}
+.zoom-contziner:hover {
+    transition: transform 1s;
+    -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+  }
