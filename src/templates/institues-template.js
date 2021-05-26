@@ -17,21 +17,21 @@ function InstituesTemplate({data}) {
                 <Row>
                     { data.cards.map ( item => 
 
-                        <Col sm={4} style={{paddingBottom:"2rem"}}>
+                        <Col sm={3} style={{paddingBottom:"2rem"}}>
                             <Fade bottom>
                             <Card className="img-shadow zoom-contziner">
                                 <div className="">
-                                    <Card.Img variant="center" src={item.image} alt={item.alt} width="350px" height="200px" />
+                                    <Card.Img variant="center" src={item.image} alt={item.alt} width="265px" height="150px" />
                                 <Card.Body style={{textAlign:"center"}}>
                                     <Card.Title style={{color:"black"}}>
-                                        <h3  style={{fontSize:'20px'}}>
+                                        <h3  style={{fontSize:'15px'}}>
                                             <b>{item.collegeName}</b>
                                         </h3>
                                         <p style={{fontSize:'15px'}}>
                                             City : {item.city}
                                         </p>
                                     </Card.Title>
-                                    <Card.Text>
+                                    <Card.Text style={{fontSize:'12px'}}>
                                         {item.para}
                                     </Card.Text>
                                 </Card.Body>

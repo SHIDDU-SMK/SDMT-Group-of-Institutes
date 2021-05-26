@@ -319,7 +319,7 @@ li {
     overflow: hidden;
 }
 .zoom-contziner:hover {
-    transition: transform 1s;
+    transition: transform 0.5s;
     -webkit-transform: scale(1.08);
   transform: scale(1.08);
   }
