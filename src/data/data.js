@@ -101,10 +101,46 @@ export const InstitutesData = {
         },
         {
             id : "12",
-            image : "./assets/images/danigond-b.com-college.png",
+            image : "./assets/images/sdm-medical-college.jpg",
             link : "https://www.constructionworld.in/latest-construction-technology/falconbrick-technologies-presents-global-smart-build-summit-3rd-edition/20477",
-            collegeName : "Danigond College Of Commerce (B.Com)",
-            alt : "Danigond College Of Commerce (B.Com)",
+            collegeName : "Danigond School Of Nursing (GNM).",
+            alt : "Danigond School Of Nursing (GNM).",
+            city : "Terdal",
+            para : "Danigond Group of Institutes Terdal is One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education."
+        },
+        {
+            id : "13",
+            image : "./assets/images/sdmt-ayurvedic-college.png",
+            link : "https://www.constructionworld.in/latest-construction-technology/falconbrick-technologies-presents-global-smart-build-summit-3rd-edition/20477",
+            collegeName : "Danigond  College Of Pharmacy (B.Pharmacy).",
+            alt : "Danigond  College Of Pharmacy (B.Pharmacy).",
+            city : "Terdal",
+            para : "Danigond Group of Institutes Terdal is One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education."
+        },
+        {
+            id : "14",
+            image : "./assets/images/padam-gas.jpg",
+            link : "https://www.constructionworld.in/latest-construction-technology/falconbrick-technologies-presents-global-smart-build-summit-3rd-edition/20477",
+            collegeName : "Padma Indane Gas Service.",
+            alt : "Padma Indane Gas Service.",
+            city : "Terdal",
+            para : "Danigond Group of Institutes Terdal is One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education."
+        },
+        {
+            id : "15",
+            image : "./assets/images/sdmt-sahakri-bank.jpeg",
+            link : "https://www.constructionworld.in/latest-construction-technology/falconbrick-technologies-presents-global-smart-build-summit-3rd-edition/20477",
+            collegeName : "Ratnatray Alpasankyatar Souhard Sahakari Niyamit.",
+            alt : "Ratnatray Alpasankyatar Souhard Sahakari Niyamit.",
+            city : "Terdal",
+            para : "Danigond Group of Institutes Terdal is One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education."
+        },
+        {
+            id : "16",
+            image : "./assets/images/pkps.jpeg",
+            link : "https://www.constructionworld.in/latest-construction-technology/falconbrick-technologies-presents-global-smart-build-summit-3rd-edition/20477",
+            collegeName : "Ratnatray Pratamika Krushi Pattina Sahakari Niyamit terdal (PKPS).",
+            alt : "Ratnatray Pratamika Krushi Pattina Sahakari Niyamit terdal (PKPS).",
             city : "Terdal",
             para : "Danigond Group of Institutes Terdal is One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education."
         },

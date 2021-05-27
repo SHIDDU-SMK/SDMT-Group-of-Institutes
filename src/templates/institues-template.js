@@ -4,7 +4,6 @@ import { Fade} from 'react-reveal';
 
 
 
-
 function InstituesTemplate({data}) {
     return (
         
