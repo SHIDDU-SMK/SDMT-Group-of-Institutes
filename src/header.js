@@ -30,6 +30,9 @@ const Header = () => {
                             <Link to="/#contact" className="nav-link line main-navigation" style={{color:'black'}}>
                                 Contact
                             </Link>
+                            <Link to="/facilities" className="nav-link line main-navigation" style={{color:'black'}}>
+                                Facilities
+                            </Link>
                         </Nav>    
                         <Form inline style={{paddingLeft:'100px'}}>
                             <span style={{ fontSize:"16px", color:'black'}}><i className="fa fa-phone"></i>&emsp;+91 9876543210&emsp; <br /><i className="fa fa-envelope"></i>&emsp;sdmtinstitutesterdal@gmail.com</span>

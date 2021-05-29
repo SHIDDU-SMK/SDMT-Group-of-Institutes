@@ -18,7 +18,7 @@ function InstituesTemplate({data}) {
 
                         <Col sm={3} style={{paddingBottom:"2rem"}}>
                             <Fade bottom>
-                            <Card className="img-shadow zoom-contziner">
+                            <Card className="img-shadow zoom-container">
                                 <div className="">
                                     <Card.Img variant="center" src={item.image} alt={item.alt} width="265px" height="150px" />
                                 <Card.Body style={{textAlign:"center"}}>
