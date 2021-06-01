@@ -27,11 +27,11 @@ const Header = () => {
                             <Link to="/#institutes" className="nav-link line main-navigation" style={{color:'black'}}>
                                 Institutes
                             </Link>
-                            <Link to="/#contact" className="nav-link line main-navigation" style={{color:'black'}}>
-                                Contact
-                            </Link>
                             <Link to="/facilities" className="nav-link line main-navigation" style={{color:'black'}}>
                                 Facilities
+                            </Link>
+                            <Link to="/#contact" className="nav-link line main-navigation" style={{color:'black'}}>
+                                Contact
                             </Link>
                         </Nav>    
                         <Form inline style={{paddingLeft:'100px'}}>
