@@ -9,5 +9,5 @@ function Institues() {
         </>
     )
 }
-
+ 
 export default Institues;

@@ -1,24 +1,31 @@
 import React from 'react';
 import { Container, Col, Row, Card } from "react-bootstrap";
-import { Fade} from 'react-reveal';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function InstituesTemplate({data}) {
+    AOS.init({
+        offset: 200,
+        duration: 3000,
+        easing: 'ease',
+        delay: 400,
+    })
     return (
         
             <Container id="institutes">
-                <Fade bottom>
-                    <h2 className="featurette-heading text-center"  style={{paddingBottom:"5rem", paddingTop:"5rem"}}>
+               
+                    <h2 className="featurette-heading text-center" data-aos="fade-down"  style={{paddingBottom:"5rem", paddingTop:"5rem"}}>
                         Our Institutes
                     </h2>
-                </Fade>
+               
                 <Row>
                     { data.cards.map ( item => 
 
                         <Col sm={3} style={{paddingBottom:"2rem"}}>
-                            <Fade bottom>
-                            <Card className="img-shadow zoom-container">
+                        
+                            <Card className="img-shadow zoom-container" data-aos="flip-left">
                                 <div className="">
                                     <Card.Img variant="center" src={item.image} alt={item.alt} width="265px" height="150px" />
                                 <Card.Body style={{textAlign:"center"}}>
@@ -36,7 +43,7 @@ function InstituesTemplate({data}) {
                                 </Card.Body>
                                 </div>
                             </Card>
-                            </Fade>
+                         
                         </Col>
                         )
                     } 

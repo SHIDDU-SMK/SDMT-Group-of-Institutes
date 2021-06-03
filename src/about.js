@@ -1,20 +1,28 @@
-import React, { Component } from 'react';
-import { Bounce, Fade} from 'react-reveal';
+import React, { Component, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 class About extends Component {
+
   render() {
+    AOS.init({
+        offset: 200,
+        duration: 3000,
+        easing: 'ease',
+        delay: 400,
+    })
         return (
-                <div className="container marketing" id="about"> 
-                        <Bounce top>
-                            <h2 style={{fontSize:"50px", textAlign:"center", color:"#25276e"}}>
+                <div className="container marketing"   id="about"> 
+                      
+                            <h2 data-aos="fade-down" style={{fontSize:"50px", textAlign:"center", color:"#25276e"}}>
                                 <b>Danigond Group of Institutes Terdal</b>
                             </h2>
-                        </Bounce>
+                        
                     <div className="row featurette">
-                        <Fade left>
-                            <div className="col-md-6">
-                                <h2 className="featurette-heading">
+                       
+                            <div className="col-md-6" data-aos="fade-up">
+                                <h2  className="featurette-heading">
                                     About Us.
                                 </h2>
                                 <p>
@@ -27,13 +35,12 @@ class About extends Component {
                                     Walking on the pathway, laid down by the father, the son Dr. M. S. Danigond well known surgeon, pediatrician & educationist dream of bringing Ayurvedic education and treatment of Ayurvedic to people in the rural areas.
                                 </p>
                             </div>
-                        </Fade>
-                        <Fade right>
-                            <div className="col-md-6 about-us-image" style={{marginTop:'100px', float:'right'}}>
+                       
+                            <div className="col-md-6 about-us-image" data-aos="zoom-up" style={{marginTop:'100px', float:'right'}}>
                                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/xnpLjSjpVmY?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen>
                                 </iframe>
                             </div>
-                        </Fade>
+                       
                     </div>
                 </div>
             );

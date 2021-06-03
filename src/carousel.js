@@ -21,13 +21,13 @@ function Slider() {
                   height='auto'
                 />
               </Zoom>
-              <Carousel.Caption >
-                <Fade left>
+              <Carousel.Caption data-aos="zoom-in-up" >
+               
                 <h3 style={{color:"black"}}>
                   <b>An Education as unique as you are</b>
                 </h3 >
                 <p style={{color:"gray"}}>One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education in the Northern part of Karnataka With World Class Modern Facilities.</p>
-                </Fade>
+               
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -40,13 +40,13 @@ function Slider() {
                   height='auto'
                 />
               </Zoom>
-              <Carousel.Caption >
-                <Fade left>
+              <Carousel.Caption data-aos="zoom-in-up">
+              
                 <h3 style={{color:"black"}}>
                   <b>An Education as unique as you are</b>
                 </h3 >
                 <p style={{color:"gray"}}>One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education in the Northern part of Karnataka With World Class Modern Facilities.</p>
-                </Fade>
+               
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -59,13 +59,13 @@ function Slider() {
                   height='auto'
                 />
               </Zoom>
-              <Carousel.Caption >
-                <Fade left>
+              <Carousel.Caption data-aos="zoom-in-up">
+                
                 <h3 style={{color:"black"}}>
                   <b>An Education as unique as you are</b>
                 </h3 >
                 <p style={{color:"#303232"}}>One of the best institutes in Karnataka Imparted to provide Quality Education And practical Knowledge in Different Fields of Education in the Northern part of Karnataka With World Class Modern Facilities.</p>
-                </Fade>
+             
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
