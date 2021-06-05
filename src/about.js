@@ -21,7 +21,7 @@ class About extends Component {
                         
                     <div className="row featurette">
                        
-                            <div className="col-md-6" data-aos="fade-up">
+                            <div className="col-md-6" data-aos="slide-right">
                                 <h2  className="featurette-heading">
                                     About Us.
                                 </h2>
@@ -36,7 +36,7 @@ class About extends Component {
                                 </p>
                             </div>
                        
-                            <div className="col-md-6 about-us-image" data-aos="zoom-up" style={{marginTop:'100px', float:'right'}}>
+                            <div className="col-md-6 about-us-image" data-aos="slide-left" style={{marginTop:'100px', float:'right'}}>
                                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/xnpLjSjpVmY?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen>
                                 </iframe>
                             </div>

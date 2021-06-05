@@ -4,11 +4,17 @@ import MedicalCollege from './assets/images/sdm-medical-college.jpg';
 import Hospital from './assets/images/sdm-hospital.jpg';
 import CollageView  from './assets/images/sdm-top-view.jpeg';
 import { Fade, Zoom} from 'react-reveal';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function Slider() {    
-  
+  AOS.init({
+    offset: 200,
+    duration: 2000,
+    easing: 'ease',
+    delay: 200,
+})
   return (
           <Carousel fade>
             <Carousel.Item>

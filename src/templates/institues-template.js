@@ -8,24 +8,24 @@ import 'aos/dist/aos.css';
 function InstituesTemplate({data}) {
     AOS.init({
         offset: 200,
-        duration: 3000,
+        duration: 1500,
         easing: 'ease',
-        delay: 400,
+        delay: 200,
     })
     return (
         
             <Container id="institutes">
                
-                    <h2 className="featurette-heading text-center" data-aos="fade-down"  style={{paddingBottom:"5rem", paddingTop:"5rem"}}>
+                    <h2 className="featurette-heading text-center" data-aos="fade-up"  style={{paddingBottom:"5rem", paddingTop:"5rem"}}>
                         Our Institutes
                     </h2>
                
                 <Row>
                     { data.cards.map ( item => 
 
-                        <Col sm={3} style={{paddingBottom:"2rem"}}>
+                        <Col sm={3} data-aos="fade-up" style={{paddingBottom:"2rem"}}>
                         
-                            <Card className="img-shadow zoom-container" data-aos="flip-left">
+                            <Card className="img-shadow zoom-container" >
                                 <div className="">
                                     <Card.Img variant="center" src={item.image} alt={item.alt} width="265px" height="150px" />
                                 <Card.Body style={{textAlign:"center"}}>

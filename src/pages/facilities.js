@@ -16,9 +16,9 @@ class Atmos extends Component {
   render() {
     AOS.init({
         offset: 200,
-        duration: 3000,
+        duration: 2000,
         easing: 'ease',
-        delay: 400,
+        delay: 200,
     })
         return (
             <>
@@ -29,7 +29,7 @@ class Atmos extends Component {
                 </div>
 
                 <div className="container" style={{paddingTop:"2rem"}}>
-                    <h1 className="main-heading" data-aos="fade-up">
+                    <h1 className="main-heading" data-aos="fade-down">
                         <b>FACILITIES OF DANIGOND GROUP OF INSTITUTES</b>
                     </h1>               
                     <div className="row" style={{paddingTop:"3rem"}}>
